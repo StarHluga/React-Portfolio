@@ -131,7 +131,10 @@ img.socialIcon {
   padding-left: 20px;
   border-left: 2px solid #4e567e; /* Matches site accent instead of bright green */
 }
-
+.timeline h2 {
+  margin-bottom: 1em; 
+  font-weight: 400;
+}
 .timeline-item {
   position: relative;
   margin-bottom: 2.5rem; /* Matches section rhythm */

@@ -50,7 +50,7 @@ const Footer = (props) => {
         gap: "2.5rem",
         padding: "5rem 0 3rem",
         backgroundColor: primaryColor,
-        width: "100vw"
+        width: "100vw",
       }}
     >
       <div
@@ -114,14 +114,14 @@ const Footer = (props) => {
         )}
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
-        Created by {name}
+        Created by {name} &copy; {new Date().getFullYear()}
       </p>
     </div>
   );
 };
 
 Footer.defaultProps = {
-  name: "",
+  name: "Edwin Lehlohonolo Setlaba a.k.a StarHluga",
 };
 
 Footer.propTypes = {
@@ -135,7 +135,6 @@ Footer.propTypes = {
   primaryColor: PropTypes.string,
   twitter: PropTypes.string,
   youTube: PropTypes.string,
-
 };
 
 export default Footer;

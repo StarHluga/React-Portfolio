@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/wh.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "A computer monitor showing bold text stating 'work hard'";
 
 /**
  * Project list
@@ -43,23 +43,23 @@ const projectList = [
     url: "https://e-train.netlify.app/",
   },
   {
-    title: "My Resume Site",
+    title: "Previous Portfolio",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Created as part of hackathon in PLP Africa Academy. The website lacks sematics and web design.",
+    url: "https://starhluga-portfolio.netlify.app/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Siwe's Beauty Parlour",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "I contributed to the creation of the Salon website. The Siwe's beauty parlour is a website assignment showcasing a beauty salon's services and booking system. I played a part in collaborating with other developers to bring this project to life.",
+    url: "https://siwes-beauty-parlour.netlify.app/",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center" }}>Projects</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img

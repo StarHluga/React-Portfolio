@@ -124,15 +124,16 @@ const Resume = () => {
       {/* Download Resume */}
       <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
         <a
-          href="docs/CV.pdf"
-          download
+          href="/docs/CV.pdf"
+          target="_Blank"
+          rel="noopener noreferrer"
           className="download-btn"
           style={{
             backgroundColor: "#333",
             color: "#fff",
             padding: "10px 20px",
             textDecoration: "none",
-            borderRadius: "5px"
+            borderRadius: "5px",
           }}
         >
           Download Resume
