@@ -24,19 +24,23 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a Self - taught full stack developer and an aspiring Cybersecurity analyst, passionate about building web applications and securing them. I enjoy learning new technologies and applying them to solve real-world problems.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Network Technician",
+  "Cybersecurity Analyst",
+  "HTML & CSS",
+  "JavaScript",
+  "Python",
+  "SQL",
+  "Django",
+  "React",
+  "Data-Structures",
+  "Git & GitHub",
 ];
 
 /**
@@ -45,7 +49,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "My ultimate goal is to eventually dive into the world of Cybersecurity focusing more on ethical hacking and penetration testing. with a strong foundation in full stack development, I aim to create secure applications from the ground up. I believe that understanding the full stack allows me to build robust and secure systems that can withstand potential threats. I am committed to continuous learning and staying updated with the latest trends in both web development and cybersecurity to ensure that I can contribute effectively to any team or project I am part of.";
 
 const About = () => {
   return (

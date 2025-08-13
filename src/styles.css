@@ -123,3 +123,84 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+/* === Timeline Section === */
+.timeline {
+  position: relative;
+  margin-left: 40px;
+  padding-left: 20px;
+  border-left: 2px solid #4e567e; /* Matches site accent instead of bright green */
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2.5rem; /* Matches section rhythm */
+}
+
+.bullet {
+  width: 15px;
+  height: 15px;
+  background-color: #4e567e; /* Accent color */
+  border-radius: 50%;
+  position: absolute;
+  left: -28px;
+  top: 5px;
+}
+
+.timeline-item .content {
+  padding-left: 10px;
+}
+
+.timeline-item h3 {
+  color: #4e567e; /* Accent color */
+  margin-bottom: 0.3rem;
+  font-weight: 400;
+  font-size: 1.25rem; /* Matches site h3 size */
+}
+
+.date {
+  font-weight: bold;
+  color: #999; /* Softer than #ccc to match theme */
+  margin-bottom: 0.6rem;
+  display: block;
+  font-size: 0.9rem;
+}
+
+.timeline-item ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.timeline-item ul li {
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* === Download Resume Button === */
+.download-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4e567e; /* Site accent color */
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #3a3f5e; /* Darker shade of accent */
+}
+
+/* Responsive styling using media queries */
+@media (max-width: 768px) {
+  .download-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+    font-size: 1.1rem;
+  }
+}

@@ -31,16 +31,16 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "The Pine City Zoo",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A friendly application for kids. This project showcases a fun and interactive zoo experience, allowing children to learn about animals through engaging activities.",
+    url: "https://pine-zoo.netlify.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "E-Train",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This website is an interactive program for education. It provides online education resources and activities to support learning from pre school to grade 7.",
+    url: "https://e-train.netlify.app/",
   },
   {
     title: "My Resume Site",
